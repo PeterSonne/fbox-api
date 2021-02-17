@@ -1,0 +1,19 @@
+{
+  "name": "fbox-api",
+  "version": "1.0.0",
+  "description": "Simple REST api usage test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PeterSonne/fbox-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PeterSonne/fbox-api/issues"
+  },
+  "homepage": "https://github.com/PeterSonne/fbox-api#readme"
+}
