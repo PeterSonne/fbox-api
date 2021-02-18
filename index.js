@@ -31,7 +31,7 @@ app.use("/name", require("./controller/name.js"));
 const swaggerOptions = {
   swaggerDefinition: {
     components: {},
-    //definitions: require("./models/swagger.json"),
+    definitions: require("./swagger.json"),
     info: {
       title: "FRITZ!Box GUI Application Test API",
       description: "A test API for applicants at GUI Team",
@@ -39,7 +39,7 @@ const swaggerOptions = {
     },
   },
   //host: `localhost:${process.env.PORT}`,
-  apis: ["./controllers/**/*.js"],
+  apis: ["./controller/**/*.js"],
 };
 
 // init
