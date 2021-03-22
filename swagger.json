@@ -12,12 +12,75 @@
             }
         }
     },
+    "fbbox": {
+        "type": "object",
+        "properties": {
+            "connectionType": {
+                "type": "string",
+                "example": "DSL"
+            },
+            "modelName": {
+                "type": "string",
+                "example": "7590"
+            },
+            "name": {
+                "type": "string",
+                "example": "Freddies new Box"
+            },
+            "online": {
+                "type": "boolean",
+                "example": "true"
+            }
+        }
+    },
+    "fbconfig": {
+        "type": "object",
+        "properties": {
+            "lang": {
+                "type": "string",
+                "example": "en-EN"
+            },
+            "oem": {
+                "type": "string",
+                "example": "avm"
+            },
+            "type": {
+                "type": "string",
+                "example": "box"
+            }
+        }
+    },
     "fbname": {
         "type": "object",
         "properties": {
             "name": {
                 "type": "string",
                 "example": "Bewerber!Box"
+            }
+        }
+    },
+    "fbrepeater": {
+        "type": "object",
+        "properties": {
+            "connectionType": {
+                "type": "string",
+                "example": "wlan"
+            },
+            "frequency": {
+                "type": "string",
+                "example": "2,4GHz"
+            },
+            "modelName": {
+                "type": "string",
+                "example": "1200"
+            },
+            "name": {
+                "type": "string",
+                "example": "Freddies new Wifi"
+            },
+            "online": {
+                "type": "boolean",
+                "example": "true"
             }
         }
     }

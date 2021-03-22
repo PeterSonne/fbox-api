@@ -24,7 +24,13 @@ app.get("/", (req, res) => {
   res.send({ message: "Bonjour" });
 });
 
-app.use("/name", require("./controller/name.js"));
+app.use("/name", require("./controller/name.js").router);
+app.use("/config", require("./controller/config.js"));
+app.use("/box", require("./controller/box.js"));
+app.use("/repeater", require("./controller/repeater.js"));
+
+
+
 
 // Swagger
 // Swagger Options
